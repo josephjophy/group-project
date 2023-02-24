@@ -1,5 +1,6 @@
 import React, { useState } from "react";
 import './LoginPage'; 
+import backgroundImage from './road.jpg';
 
 function LoginPage(){
     const [display,setDisplay]=useState(false)
@@ -10,6 +11,7 @@ function LoginPage(){
     }
 return(
     <div>
+        <img src={backgroundImage} alt="Background" className="background-image" />
         <div className='container'>
             <div> 
                 {
