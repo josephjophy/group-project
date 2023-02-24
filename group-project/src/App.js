@@ -17,7 +17,7 @@ function App() {
         <nav>
           <ul>
             <li
-              onClick={() => handleNavClick('login')}>LoginPage
+              onClick={() => handleNavClick('login')}>Login Page
             </li> 
             <li
               onClick={() => handleNavClick('home')}>Home
